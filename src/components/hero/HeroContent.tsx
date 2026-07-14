@@ -84,9 +84,9 @@ export default function HeroContent() {
             98%
           </h3>
 
-          {/* <p className="text-gray-600 dark:text-gray-400">
+          <p className="text-gray-600 dark:text-gray-400">
             Success Rate
-          </p> */}
+          </p>
         </div>
 
       </div>
