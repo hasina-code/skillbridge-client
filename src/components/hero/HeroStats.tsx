@@ -41,7 +41,7 @@ export default function HeroStats() {
         <div className="h-16 w-px bg-white/20"></div>
 
         {/* Success */}
-        {/* <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4">
           <div className="flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500">
             <TrendingUp size={28} className="text-white" />
           </div>
@@ -55,7 +55,7 @@ export default function HeroStats() {
               Success Rate
             </p>
           </div>
-        </div> */}
+        </div>
 
       </div>
     </motion.div>
