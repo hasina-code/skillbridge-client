@@ -9,9 +9,9 @@ export default function AddCoursePage() {
           Add New Course
         </h1>
 
-        {/* <p className="mt-2 text-slate-400">
+        <p className="mt-2 text-slate-400">
           Create a new course for your students.
-        </p> */}
+        </p>
       </div>
 
       {/* Course Form */}
