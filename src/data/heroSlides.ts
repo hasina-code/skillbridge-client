@@ -9,9 +9,9 @@ export const heroSlides = [
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80",
     title: "Programming Course",
   },
-  {
-    id: 3,
-    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80",
-    title: "Career Growth",
-  },
+  // {
+  //   id: 3,
+  //   image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80",
+  //   title: "Career Growth",
+  // },
 ];

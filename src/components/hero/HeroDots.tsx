@@ -8,8 +8,8 @@ interface HeroDotsProps {
 }
 
 export default function HeroDots({
-  current,
-  setCurrent,
+  // current,
+  // setCurrent,
 }: HeroDotsProps) {
   return (
     <div className="absolute -bottom-14 left-1/2 z-20 flex -translate-x-1/2 items-center gap-3">
