@@ -25,7 +25,7 @@ export default function WhyChooseSkillBridge() {
           className="absolute -top-40 -left-40 h-96 w-96 rounded-full bg-cyan-500/10 blur-[120px]"
         />
 
-        {/* <motion.div
+        <motion.div
           animate={{
             x: [0, -40, 0],
             y: [0, -30, 0],
@@ -38,7 +38,7 @@ export default function WhyChooseSkillBridge() {
           className="absolute bottom-0 right-0 h-[420px] w-[420px] rounded-full bg-blue-600/10 blur-[150px]"
         />
 
-      </div> */}
+      </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
 
