@@ -42,9 +42,9 @@ export default function CourseCard({ course }: CourseCardProps) {
           className="object-cover transition duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-x-4 top-4 flex justify-between">
-          <span className="rounded-full bg-cyan-500 px-4 py-1.5 text-xs font-bold text-white shadow-md">
+          {/* <span className="rounded-full bg-cyan-500 px-4 py-1.5 text-xs font-bold text-white shadow-md">
             {course.category}
-          </span>
+          </span> */}
           <span className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-slate-900 backdrop-blur-sm dark:bg-slate-900/80 dark:text-slate-200">
             {course.level}
           </span>

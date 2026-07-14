@@ -359,7 +359,7 @@ export default function CourseForm({
 
         {/* Instructor Email */}
 
-        {/* <div>
+        <div>
           <label className="mb-2 block font-semibold text-slate-700 dark:text-white">
             Instructor Email
           </label>
@@ -370,7 +370,7 @@ export default function CourseForm({
             readOnly
             className="w-full cursor-not-allowed rounded-xl border border-slate-300 bg-slate-100 p-4 text-slate-700 dark:border-slate-700 dark:bg-[#0B1220] dark:text-white"
           />
-        </div> */}
+        </div>
 
       </div>
 
