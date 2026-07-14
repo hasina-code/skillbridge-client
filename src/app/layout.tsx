@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer/Footer";
 import ThemeProvider from "@/providers/ThemeProvider";
+import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({
   children,
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider>
+           <Toaster position="top-right" />
           {!isDashboard && <Navbar />}
 
           {children}
