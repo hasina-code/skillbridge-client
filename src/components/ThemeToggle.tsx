@@ -17,7 +17,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      // className="group h-11 w-11 rounded-full border border-cyan-500 flex items-center justify-center hover:bg-cyan-500 transition-all duration-300"
+      className="group h-11 w-11 rounded-full border border-cyan-500 flex items-center justify-center hover:bg-cyan-500 transition-all duration-300"
     >
       {theme === "dark" ? (
         <Sun
