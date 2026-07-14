@@ -12,10 +12,10 @@ export default function WhyChooseHeader() {
       transition={{ duration: 0.6 }}
       className="text-center mb-16"
     >
-      <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-cyan-500 text-cyan-500 font-semibold">
+      {/* <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-cyan-500 text-cyan-500 font-semibold">
         <Sparkles size={18} />
         Why Choose Us
-      </div>
+      </div> */}
 
       <h2 className="mt-6 text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white">
         Why Choose

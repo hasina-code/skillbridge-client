@@ -24,11 +24,11 @@ export default function CategoryCard({
       className="group rounded-3xl border border-gray-200 dark:border-[#1F2A44] bg-white dark:bg-[#0F172A] p-7 shadow-md hover:shadow-2xl transition-all duration-300"
     >
       {/* Icon */}
-      {/* <div
+      <div
         className={`flex h-16 w-16 items-center justify-center rounded-2xl ${category.color} text-white shadow-lg`}
       >
         <Icon size={30} />
-      </div> */}
+      </div>
 
       {/* Title */}
       <h3 className="mt-6 text-2xl font-bold text-gray-900 dark:text-white">
