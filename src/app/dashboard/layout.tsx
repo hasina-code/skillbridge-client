@@ -6,17 +6,15 @@ import DashboardNavbar from "@/components/dashboard/DashboardNavbar";
 
 export default function DashboardLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-slate-100 dark:bg-[#081220]">
+    <div className="min-h-screen overflow-x-hidden bg-slate-100 dark:bg-[#081220]">
 
-      {/* Desktop Layout */}
-
-      <div className="flex">
+      <div className="flex min-h-screen">
 
         {/* Sidebar */}
 
@@ -27,17 +25,13 @@ export default function DashboardLayout({
 
         {/* Right Content */}
 
-        <div className="flex min-h-screen flex-1 flex-col">
-
-          {/* Navbar */}
+        <div className="flex min-h-screen min-w-0 flex-1 flex-col">
 
           <DashboardNavbar
             setOpen={setOpen}
           />
 
-          {/* Main Content */}
-
-          <main className="flex-1 p-6 md:p-8">
+          <main className="min-w-0 flex-1 overflow-x-hidden p-4 sm:p-6 lg:p-8">
             {children}
           </main>
 

@@ -1,11 +1,8 @@
-"use client";
-
 import "./globals.css";
-import { usePathname } from "next/navigation";
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer/Footer";
 import ThemeProvider from "@/providers/ThemeProvider";
+import LayoutWrapper from "@/components/LayoutWrapper";
+
 import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({
@@ -13,20 +10,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const pathname = usePathname();
-
-  const isDashboard = pathname.startsWith("/dashboard");
-
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider>
-           <Toaster position="top-right" />
-          {!isDashboard && <Navbar />}
+          <Toaster position="top-right" />
 
-          {children}
+          <LayoutWrapper>
+            {children}
+          </LayoutWrapper>
 
-          {!isDashboard && <Footer />}
         </ThemeProvider>
       </body>
     </html>
