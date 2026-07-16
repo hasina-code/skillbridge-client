@@ -47,7 +47,7 @@ export default function Loading() {
         transition={{ delay: .3 }}
         className="mt-8 text-2xl font-bold text-slate-800 dark:text-white"
       >
-        {/* Loading SkillBridge... */}
+        Loading SkillBridge...
       </motion.h2>
 
       <motion.p
