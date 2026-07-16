@@ -26,7 +26,7 @@ const publicLinks = [
 const privateLinks = [
   { name: "Home", href: "/" },
   { name: "Courses", href: "/courses" },
-  { name: "My Courses", href: "/my-courses" },
+  { name: "My Courses", href: "/dashboard/my-courses" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];

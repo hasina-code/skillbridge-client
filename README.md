@@ -6,7 +6,7 @@ SkillBridge is a modern Learning Management System (LMS) built with **Next.js 16
 
 # 🌐 Live Site
 
-https://skillbridge-client-hasina-code-hasina-codes-projects.vercel.app
+https://skillbridge-client-one.vercel.app
 
 # ✨ Key Features
 
