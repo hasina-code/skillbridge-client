@@ -45,7 +45,7 @@ export default function NotFound() {
             href="/courses"
             className="rounded-2xl border border-cyan-500 px-8 py-3 font-semibold text-cyan-500 transition hover:bg-cyan-50 dark:hover:bg-cyan-500/10"
           >
-            {/* Browse Courses */}
+            Browse Courses
           </Link>
 
         </div>
