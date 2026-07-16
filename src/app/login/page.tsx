@@ -46,32 +46,28 @@ export default function LoginPage() {
   };
 
   // Demo Login
-  const handleDemoLogin = async () => {
-    setLoading(true);
+ const handleDemoLogin = async () => {
+  setLoading(true);
 
-    try {
-      const { error } = await authClient.signIn.email({
-        email: "demo@gmail.com",
-        password: "12345678",
-      });
+  try {
+    const { error } = await authClient.signIn.email({
+      email: "hasina.demo@gmail.com",
+      password: "Hasina123@",
+    });
 
-      if (error) {
-       
-        toast.error((error as any).message || "Demo login failed");
-        return;
-      }
-
-      toast.success("Demo Login Successful!");
-      router.push("/");
-      router.refresh();
-    } catch (error: any) {
-      console.error(error);
-      toast.error(error?.message || "Demo Login Failed!");
-    } finally {
-      setLoading(false);
+    if (error) {
+      toast.error(error.message ?? "Demo Login Failed");
+      return;
     }
-  };
 
+    toast.success("Demo Login Successful!");
+
+    router.push("/");
+    router.refresh();
+  } finally {
+    setLoading(false);
+  }
+};
   // Google Login
   const handleGoogleLogin = async () => {
     try {

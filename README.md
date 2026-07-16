@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 SkillBridge
 
-## Getting Started
+## 📖 Project Purpose
 
-First, run the development server:
+SkillBridge is a modern Learning Management System (LMS) built with **Next.js 16, TypeScript, MongoDB, and Better Auth**. It enables students to explore online courses, manage their learning journey, and access a personalized dashboard with analytics. The application follows a modern, responsive design with secure authentication and efficient API handling using Next.js API Routes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 🌐 Live Site
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://skillbridge-client-hasina-code-hasina-codes-projects.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Authentication with Email & Password using Better Auth
+- Browse All Courses
+- Search, Filter & Sort Courses
+- Course Details Page
+- Add New Course
+- Update Existing Course
+- Delete Course
+- Analytics Dashboard with Recharts
+- Statistics Cards & Charts
+- User Profile Management
+- Update Profile Image
+- Settings Page
+- Dark & Light Theme
+- Fully Responsive Design
+- Protected Dashboard Routes
+- Modern UI with Tailwind CSS
+- React Hot Toast Notifications
+- Loading & Custom Error Pages
+- MongoDB Database Integration
+- Secure API Routes using Next.js API
 
-## Learn More
+# 🛠️ Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+## Frontend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Recharts
+- React Hook Form
+- React Hot Toast
+- Lucide React
+- Next Themes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Backend
 
-## Deploy on Vercel
+- Next.js API Routes
+- Better Auth
+- MongoDB
+- TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 📦 NPM Packages Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+@better-auth/mongo-adapter
+better-auth
+mongodb
+axios
+framer-motion
+lucide-react
+next-themes
+react-hook-form
+react-hot-toast
+recharts
+
+# 🚀 API Routes
+
+## Authentication
+
+/api/auth/[...all]
+
+## Courses
+
+GET /api/courses
+GET /api/courses/[id]
+POST /api/courses
+PUT /api/courses/[id]
+DELETE /api/courses/[id]
+
+## Users
+
+GET /api/users
+PATCH /api/users
+
+## Dashboard
+
+GET /api/dashboard/stats
+
+# Environment Variables
+
+MONGODB_URI=
+
+BETTER_AUTH_SECRET=
+
+BETTER_AUTH_URL=
+
+NEXT_PUBLIC_BASE_URL=
+
+NEXT_PUBLIC_SERVER_URL=
+
+GOOGLE_CLIENT_ID=
+
+GOOGLE_CLIENT_SECRET=
+
+# 📱 Pages
+
+## Public Pages
+
+- Home
+- About
+- Contact
+- Courses
+- Course Details
+- Login
+- Register
+
+## Protected Pages
+
+- Dashboard
+- Analytics
+- My Courses
+- Manage Courses
+- Add Course
+- Profile
+- Settings
+
+# 👤 Demo Credentials
+
+## Demo User
+
+**Email**
+
+hasina.demo@gmail.com
+
+**Password**
+
+Hasina123@
