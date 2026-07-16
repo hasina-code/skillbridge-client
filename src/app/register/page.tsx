@@ -299,7 +299,7 @@ try {
 
         {/* Google Login */}
 
-        {/* <button
+        <button
           type="button"
           onClick={handleGoogleLogin}
           className="flex h-14 w-full items-center justify-center gap-3 rounded-2xl border border-slate-300 bg-white font-semibold text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:bg-[#081220] dark:text-white dark:hover:bg-slate-900"
@@ -309,7 +309,7 @@ try {
 
           Continue with Google
 
-        </button> */}
+        </button>
 
         {/* Footer */}
 
