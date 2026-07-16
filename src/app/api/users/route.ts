@@ -4,7 +4,7 @@ import clientPromise from "@/lib/mongodb";
 export async function GET(req: NextRequest) {
   try {
     const client = await clientPromise;
-// 
+
     const db = client.db("SkillBridge");
 
     const email = req.nextUrl.searchParams.get("email");

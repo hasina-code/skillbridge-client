@@ -11,7 +11,7 @@ export default function SettingsPage() {
 
       <div>
         <h1 className="text-4xl font-bold text-slate-900 dark:text-white">
-          Settings
+          {/* Settings */}
         </h1>
 
         <p className="mt-2 text-slate-500 dark:text-slate-400">

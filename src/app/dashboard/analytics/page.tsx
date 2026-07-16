@@ -70,7 +70,7 @@ export default async function AnalyticsPage() {
       <AnalyticsCards courses={courses} />
 
       <div className="grid gap-8 xl:grid-cols-2">
-
+{/*  */}
         <AnalyticsBarChart
           data={chartData}
         />
