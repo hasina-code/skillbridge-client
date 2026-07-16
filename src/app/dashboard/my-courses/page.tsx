@@ -54,7 +54,7 @@ export default async function MyCoursesPage() {
 
   return (
     <div className="space-y-10">
-      {/* Header */}
+     
 
       <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
         <div>

@@ -6,7 +6,7 @@ import ChangePassword from "@/components/dashboard/ChangePassword";
 import ProfileCard from "@/components/dashboard/ProfileCard";
 
 export default async function ProfilePage() {
-  // Logged-in user session
+  
   const session = await auth.api.getSession({
     headers: await headers(),
   });
